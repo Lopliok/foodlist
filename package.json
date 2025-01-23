@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev-fe": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "dev:data-server": "node data-server.mjs --port 3000",
-    "devp": "pnpm run /dev:/"
+    "dev": "node data-server.mjs & vite"
   },
   "dependencies": {
     "react": "^18.3.1",
