@@ -1,0 +1,23 @@
+body {
+  background: #000;
+  color: #03c206;
+}
+
+input {
+  background: #000;
+  color: #03c206;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #03c206;
+  padding: 5px;
+}
+
+img {
+  margin-left: 20px;
+}
