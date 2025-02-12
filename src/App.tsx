@@ -1,12 +1,11 @@
-import Items from './Items'
+import { TableApp } from './BeveragesTable'
 import './index.css'
 
 function App() {
   return (
-    <>
-      <Items />
-      {/*       <WebSocketComponent /> */}
-    </>
+    <div className='p-4'>
+      <TableApp />
+    </div>
   )
 }
 

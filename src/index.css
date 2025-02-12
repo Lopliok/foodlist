@@ -1,11 +1,14 @@
+@import "tailwindcss";
+
+
 body {
-  background: #000;
-  color: #03c206;
+  background: #fff;
+  color: #000;
 }
 
 input {
-  background: #000;
-  color: #03c206;
+  background: #fff;
+  color: #000;
 }
 
 table {
@@ -14,9 +17,10 @@ table {
 
 td,
 th {
-  border: 1px solid #03c206;
-  padding: 5px;
+  border: 1px solid #000;
 }
+
+
 
 img {
   margin-left: 20px;
